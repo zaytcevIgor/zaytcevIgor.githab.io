@@ -1,0 +1,28 @@
+form.form-sing-up
+    .wrapper-sing-up
+        h3.sing-up__head Регистрация аккаунта
+        label.label-email
+            input.input-email(type="text" name="name" value="Имя")
+        label.label-password
+            input.input-password(type="text" name="surname" value="Фамилия")
+        label.label-radio
+            input.input-radio(type="radio" name="radiobutton" value="radiobutton") 
+            span.input__text мужчина
+            input.input-radio(type="radio" name="radiobutton" value="radiobutton") 
+            span.input__text женщина
+        h5.date-head дата рождения
+        label.label-date 
+            input.input-date(type="text" name="date" value="ДД.ММ.ГГГГ") 
+        h5.head данные для входа в сервис
+        label.label-email
+            input.input-email(type="text" name="email" value="Email")
+        label.label-password
+            input.input-password(type="text" name="password" value="Пароль")
+        .wrapper-button  
+            button.btn(type="submit") зарегистрироваться
+            span.arrow-right
+        .wrapper-create
+            p.create-text Нет аккаунта на Toxin?
+            .wrapper-btn
+                a.btn-link(href="/mock-address/change-me") войти
+
