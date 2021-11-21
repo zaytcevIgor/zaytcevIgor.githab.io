@@ -1,0 +1,16 @@
+- let list = ["О нас", "Услуги", "Вакансии", "Новости", "Соглашения"];
+
+.header 
+    .wrapper 
+        .logotype 
+            img(src="components/_header/logo.svg", alt="Логотип")
+        .nav-menu 
+            ul.nav-list 
+                each name in list
+                    li.nav-list__items
+                        a.nav-list__link(href="#")= name
+        .register-wrapper 
+            button.enter войти
+            button.register зарегистрироватся
+
+
